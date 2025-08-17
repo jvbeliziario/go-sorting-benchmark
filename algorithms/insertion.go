@@ -3,7 +3,6 @@ package algorithms
 func InsertionSort(arr []int) (stats SortingStats) {
 
 	for i := 1; i < len(arr); i++ {
-		
 		j := i
 
 		for j > 0 {
