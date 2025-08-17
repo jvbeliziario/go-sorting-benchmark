@@ -1,41 +1,75 @@
 package algorithms
 
-func MergeSort(arr *[]int) {
-    *arr = mergeSortHelper(*arr)
+func MergeSort(arr []int) ([]int, SortingStats) {
+	return mergeSortHelper(arr)
 }
 
-func mergeSortHelper(arr []int) []int {
-    if len(arr) <= 1 {
-        return arr
-    }
-    
-    mid := len(arr) / 2
-    left, right := arr[:mid], arr[mid:]
-    
-    ch := make(chan []int, 2)
-    
-    go func() { ch <- mergeSortHelper(left) }()
-    go func() { ch <- mergeSortHelper(right) }()
-    
-    sortedOne := <-ch
-    sortedTwo := <-ch
-    
-    return merge(sortedOne, sortedTwo)
-}
-
-func merge(arrOne, arrTwo []int) []int{
-	var mergedArray []int
-	
-	for range (len(arrOne)+len(arrTwo)){
-		if arrOne[0] > arrTwo[0]{
-			mergedArray = append(mergedArray, arrOne[0])
-			arrOne = arrOne[1:] 
-		} else {
-			mergedArray = append(mergedArray, arrTwo[0])
-			arrTwo = arrTwo[1:]
-		}
+func mergeSortHelper(arr []int) ([]int, SortingStats) {
+	if len(arr) <= 1 {
+		return arr, SortingStats{}
 	}
-	
-	
-	return mergedArray
+
+	mid := len(arr) / 2
+	left, right := arr[:mid], arr[mid:]
+
+	ch := make(chan struct {
+		sorted []int
+		stats  SortingStats
+	}, 2)
+
+	go func() {
+		sorted, stats := mergeSortHelper(left)
+		ch <- struct {
+			sorted []int
+			stats  SortingStats
+		}{sorted, stats}
+	}()
+
+	go func() {
+		sorted, stats := mergeSortHelper(right)
+		ch <- struct {
+			sorted []int
+			stats  SortingStats
+		}{sorted, stats}
+	}()
+
+	leftResult := <-ch
+	rightResult := <-ch
+
+	merged, mergeStats := merge(leftResult.sorted, rightResult.sorted)
+
+	// Combine stats
+	totalStats := SortingStats{
+		Comparisons: leftResult.stats.Comparisons + rightResult.stats.Comparisons + mergeStats.Comparisons,
+		Swaps:       leftResult.stats.Swaps + rightResult.stats.Swaps + mergeStats.Swaps,
+	}
+
+	return merged, totalStats
+}
+
+func merge(arrOne, arrTwo []int) ([]int, SortingStats) {
+	var mergedArray []int
+	var stats SortingStats
+	i, j := 0, 0
+
+	for i < len(arrOne) && j < len(arrTwo) {
+		stats.Comparisons++
+		if arrOne[i] <= arrTwo[j] {
+			mergedArray = append(mergedArray, arrOne[i])
+			i++
+		} else {
+			mergedArray = append(mergedArray, arrTwo[j])
+			j++
+		}
+		stats.Swaps++ //appends
+	}
+
+
+    mergedArray = append(mergedArray, arrOne[i:]...)
+	stats.Swaps += len(arrOne[i:])
+
+	mergedArray = append(mergedArray, arrTwo[j:]...)
+	stats.Swaps += len(arrTwo[j:])
+
+	return mergedArray, stats
 }
