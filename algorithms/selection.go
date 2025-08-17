@@ -11,14 +11,14 @@ func SelectionSort(arr []int) (stats SortingStats) {
 				intMin = j
 			}
 		}
-		stats.Swaps++
-		arr[i], arr[intMin] = arr[intMin], arr[i]
+		if i != intMin {
+			stats.Swaps++
+			arr[i], arr[intMin] = arr[intMin], arr[i]
+		}
 	}
 	return stats
 }
 
-
 /*
 Total comparisons: n(n-1)/2
-Total Swaps: n
 */
