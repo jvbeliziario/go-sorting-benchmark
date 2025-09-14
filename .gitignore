@@ -1,3 +1,4 @@
 *.test
 *.so
 quickTesting.go
+*.txt
