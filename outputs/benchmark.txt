@@ -1,0 +1,465 @@
+goos: linux
+goarch: amd64
+pkg: github.com/guiwoch/go-sorting-benchmark/benchmark
+cpu: AMD Ryzen 5 5600 6-Core Processor              
+BenchmarkSortingAlgorithms/HeapSort-ReverseSorted-100-12         	  754945	      1514 ns/op	     896 B/op	       1 allocs/op
+BenchmarkSortingAlgorithms/HeapSort-ReverseSorted-500-12         	  113713	     10070 ns/op	    4096 B/op	       1 allocs/op
+BenchmarkSortingAlgorithms/HeapSort-ReverseSorted-1000-12        	   41488	     28350 ns/op	    8192 B/op	       1 allocs/op
+BenchmarkSortingAlgorithms/HeapSort-ReverseSorted-2500-12        	    9247	    119669 ns/op	   20480 B/op	       1 allocs/op
+BenchmarkSortingAlgorithms/HeapSort-ReverseSorted-5000-12        	    4605	    253234 ns/op	   40960 B/op	       1 allocs/op
+BenchmarkSortingAlgorithms/HeapSort-ReverseSorted-10000-12       	    2163	    539748 ns/op	   81921 B/op	       1 allocs/op
+BenchmarkSortingAlgorithms/HeapSort-ReverseSorted-25000-12       	     849	   1397150 ns/op	  204802 B/op	       1 allocs/op
+BenchmarkSortingAlgorithms/HeapSort-ReverseSorted-50000-12       	     405	   2926830 ns/op	  401413 B/op	       1 allocs/op
+BenchmarkSortingAlgorithms/HeapSort-ReverseSorted-100000-12      	     194	   6119285 ns/op	  802827 B/op	       1 allocs/op
+BenchmarkSortingAlgorithms/HeapSort-ReverseSorted-250000-12      	      74	  15946279 ns/op	 2007069 B/op	       1 allocs/op
+BenchmarkSortingAlgorithms/HeapSort-ReverseSorted-500000-12      	      36	  32788152 ns/op	 4005947 B/op	       1 allocs/op
+BenchmarkSortingAlgorithms/HeapSort-ReverseSorted-1000000-12     	      16	  68410701 ns/op	 8003717 B/op	       1 allocs/op
+BenchmarkSortingAlgorithms/HeapSort-Duplicate-100-12             	  707018	      1580 ns/op	     896 B/op	       1 allocs/op
+BenchmarkSortingAlgorithms/HeapSort-Duplicate-500-12             	  114446	     10190 ns/op	    4096 B/op	       1 allocs/op
+BenchmarkSortingAlgorithms/HeapSort-Duplicate-1000-12            	   42922	     26821 ns/op	    8192 B/op	       1 allocs/op
+BenchmarkSortingAlgorithms/HeapSort-Duplicate-2500-12            	    8936	    122734 ns/op	   20480 B/op	       1 allocs/op
+BenchmarkSortingAlgorithms/HeapSort-Duplicate-5000-12            	    4196	    269671 ns/op	   40960 B/op	       1 allocs/op
+BenchmarkSortingAlgorithms/HeapSort-Duplicate-10000-12           	    2146	    549200 ns/op	   81921 B/op	       1 allocs/op
+BenchmarkSortingAlgorithms/HeapSort-Duplicate-25000-12           	     811	   1416824 ns/op	  204802 B/op	       1 allocs/op
+BenchmarkSortingAlgorithms/HeapSort-Duplicate-50000-12           	     406	   2918445 ns/op	  401413 B/op	       1 allocs/op
+BenchmarkSortingAlgorithms/HeapSort-Duplicate-100000-12          	     196	   6094716 ns/op	  802827 B/op	       1 allocs/op
+BenchmarkSortingAlgorithms/HeapSort-Duplicate-250000-12          	      73	  15549608 ns/op	 2007069 B/op	       1 allocs/op
+BenchmarkSortingAlgorithms/HeapSort-Duplicate-500000-12          	      36	  31758753 ns/op	 4005950 B/op	       1 allocs/op
+BenchmarkSortingAlgorithms/HeapSort-Duplicate-1000000-12         	      18	  65660776 ns/op	 8003702 B/op	       1 allocs/op
+BenchmarkSortingAlgorithms/HeapSort-Random-100-12                	  656148	      1677 ns/op	     896 B/op	       1 allocs/op
+BenchmarkSortingAlgorithms/HeapSort-Random-500-12                	  109414	     10897 ns/op	    4096 B/op	       1 allocs/op
+BenchmarkSortingAlgorithms/HeapSort-Random-1000-12               	   35284	     31538 ns/op	    8192 B/op	       1 allocs/op
+BenchmarkSortingAlgorithms/HeapSort-Random-2500-12               	    8454	    139254 ns/op	   20480 B/op	       1 allocs/op
+BenchmarkSortingAlgorithms/HeapSort-Random-5000-12               	    3652	    313321 ns/op	   40960 B/op	       1 allocs/op
+BenchmarkSortingAlgorithms/HeapSort-Random-10000-12              	    1719	    691817 ns/op	   81921 B/op	       1 allocs/op
+BenchmarkSortingAlgorithms/HeapSort-Random-25000-12              	     615	   1929404 ns/op	  204803 B/op	       1 allocs/op
+BenchmarkSortingAlgorithms/HeapSort-Random-50000-12              	     284	   4187452 ns/op	  401415 B/op	       1 allocs/op
+BenchmarkSortingAlgorithms/HeapSort-Random-100000-12             	     132	   9145619 ns/op	  802832 B/op	       1 allocs/op
+BenchmarkSortingAlgorithms/HeapSort-Random-250000-12             	      46	  24783854 ns/op	 2007088 B/op	       1 allocs/op
+BenchmarkSortingAlgorithms/HeapSort-Random-500000-12             	      22	  51505346 ns/op	 4006066 B/op	       1 allocs/op
+BenchmarkSortingAlgorithms/HeapSort-Random-1000000-12            	      10	 105455212 ns/op	 8003816 B/op	       2 allocs/op
+BenchmarkSortingAlgorithms/HeapSort-Sorted-100-12                	  622915	      1778 ns/op	     896 B/op	       1 allocs/op
+BenchmarkSortingAlgorithms/HeapSort-Sorted-500-12                	  100627	     11717 ns/op	    4096 B/op	       1 allocs/op
+BenchmarkSortingAlgorithms/HeapSort-Sorted-1000-12               	   34084	     34491 ns/op	    8192 B/op	       1 allocs/op
+BenchmarkSortingAlgorithms/HeapSort-Sorted-2500-12               	    9422	    122632 ns/op	   20480 B/op	       1 allocs/op
+BenchmarkSortingAlgorithms/HeapSort-Sorted-5000-12               	    4545	    257018 ns/op	   40960 B/op	       1 allocs/op
+BenchmarkSortingAlgorithms/HeapSort-Sorted-10000-12              	    2223	    534604 ns/op	   81921 B/op	       1 allocs/op
+BenchmarkSortingAlgorithms/HeapSort-Sorted-25000-12              	     849	   1372909 ns/op	  204802 B/op	       1 allocs/op
+BenchmarkSortingAlgorithms/HeapSort-Sorted-50000-12              	     409	   2888042 ns/op	  401413 B/op	       1 allocs/op
+BenchmarkSortingAlgorithms/HeapSort-Sorted-100000-12             	     199	   6029274 ns/op	  802827 B/op	       1 allocs/op
+BenchmarkSortingAlgorithms/HeapSort-Sorted-250000-12             	      76	  15633768 ns/op	 2007068 B/op	       1 allocs/op
+BenchmarkSortingAlgorithms/HeapSort-Sorted-500000-12             	      36	  32444783 ns/op	 4005947 B/op	       1 allocs/op
+BenchmarkSortingAlgorithms/HeapSort-Sorted-1000000-12            	      16	  67454578 ns/op	 8003723 B/op	       1 allocs/op
+BenchmarkSortingAlgorithms/QuickSort-Random-100-12               	 1000000	      1278 ns/op	     896 B/op	       1 allocs/op
+BenchmarkSortingAlgorithms/QuickSort-Random-500-12               	  168478	      6498 ns/op	    4096 B/op	       1 allocs/op
+BenchmarkSortingAlgorithms/QuickSort-Random-1000-12              	   78699	     15615 ns/op	    8192 B/op	       1 allocs/op
+BenchmarkSortingAlgorithms/QuickSort-Random-2500-12              	   19971	     56600 ns/op	   20480 B/op	       1 allocs/op
+BenchmarkSortingAlgorithms/QuickSort-Random-5000-12              	    6008	    187103 ns/op	   40960 B/op	       1 allocs/op
+BenchmarkSortingAlgorithms/QuickSort-Random-10000-12             	    2763	    414996 ns/op	   81920 B/op	       1 allocs/op
+BenchmarkSortingAlgorithms/QuickSort-Random-25000-12             	     874	   1373853 ns/op	  204802 B/op	       1 allocs/op
+BenchmarkSortingAlgorithms/QuickSort-Random-50000-12             	     360	   3188140 ns/op	  401414 B/op	       1 allocs/op
+BenchmarkSortingAlgorithms/QuickSort-Random-100000-12            	     139	   8540780 ns/op	  802833 B/op	       1 allocs/op
+BenchmarkSortingAlgorithms/QuickSort-Random-250000-12            	      30	  38401780 ns/op	 2007114 B/op	       1 allocs/op
+BenchmarkSortingAlgorithms/QuickSort-Random-500000-12            	       8	 132802464 ns/op	 4006154 B/op	       2 allocs/op
+BenchmarkSortingAlgorithms/QuickSort-Random-1000000-12           	       3	 491563506 ns/op	 8004293 B/op	       4 allocs/op
+BenchmarkSortingAlgorithms/QuickSort-Sorted-100-12               	  236884	      5033 ns/op	     896 B/op	       1 allocs/op
+BenchmarkSortingAlgorithms/QuickSort-Sorted-500-12               	   10000	    108755 ns/op	    4096 B/op	       1 allocs/op
+BenchmarkSortingAlgorithms/QuickSort-Sorted-1000-12              	    2784	    427289 ns/op	    8192 B/op	       1 allocs/op
+BenchmarkSortingAlgorithms/QuickSort-Sorted-2500-12              	     446	   2646437 ns/op	   20484 B/op	       1 allocs/op
+BenchmarkSortingAlgorithms/QuickSort-Sorted-5000-12              	     100	  10549493 ns/op	   40981 B/op	       1 allocs/op
+BenchmarkSortingAlgorithms/QuickSort-Sorted-10000-12             	      27	  42162844 ns/op	   81998 B/op	       1 allocs/op
+BenchmarkSortingAlgorithms/QuickSort-Sorted-25000-12             	       4	 261494296 ns/op	  205332 B/op	       3 allocs/op
+BenchmarkSortingAlgorithms/QuickSort-Sorted-50000-12             	       1	1053945533 ns/op	  403280 B/op	       7 allocs/op
+BenchmarkSortingAlgorithms/QuickSort-Sorted-100000-12            	       1	4189010592 ns/op	  804944 B/op	      10 allocs/op
+BenchmarkSortingAlgorithms/QuickSort-Sorted-250000-12            	       1	26257739208 ns/op	 2009168 B/op	      10 allocs/op
+BenchmarkSortingAlgorithms/QuickSort-Sorted-500000-12            	       1	104711356195 ns/op	 4008016 B/op	      10 allocs/op
+BenchmarkSortingAlgorithms/QuickSort-Sorted-1000000-12           	       1	418767798387 ns/op	 8005712 B/op	      10 allocs/op
+BenchmarkSortingAlgorithms/QuickSort-ReverseSorted-100-12        	  216750	      5375 ns/op	     896 B/op	       1 allocs/op
+BenchmarkSortingAlgorithms/QuickSort-ReverseSorted-500-12        	    9992	    116942 ns/op	    4096 B/op	       1 allocs/op
+BenchmarkSortingAlgorithms/QuickSort-ReverseSorted-1000-12       	    2545	    458093 ns/op	    8192 B/op	       1 allocs/op
+BenchmarkSortingAlgorithms/QuickSort-ReverseSorted-2500-12       	     420	   2814085 ns/op	   20485 B/op	       1 allocs/op
+BenchmarkSortingAlgorithms/QuickSort-ReverseSorted-5000-12       	     100	  11217386 ns/op	   40981 B/op	       1 allocs/op
+BenchmarkSortingAlgorithms/QuickSort-ReverseSorted-10000-12      	      25	  45012298 ns/op	   81995 B/op	       1 allocs/op
+BenchmarkSortingAlgorithms/QuickSort-ReverseSorted-25000-12      	       4	 278518298 ns/op	  205270 B/op	       2 allocs/op
+BenchmarkSortingAlgorithms/QuickSort-ReverseSorted-50000-12      	       1	1122224060 ns/op	  403544 B/op	      10 allocs/op
+BenchmarkSortingAlgorithms/QuickSort-ReverseSorted-100000-12     	       1	4430811756 ns/op	  804952 B/op	      10 allocs/op
+BenchmarkSortingAlgorithms/QuickSort-ReverseSorted-250000-12     	       1	27687541570 ns/op	 2009176 B/op	      10 allocs/op
+BenchmarkSortingAlgorithms/QuickSort-ReverseSorted-500000-12     	       1	109761126470 ns/op	 4008024 B/op	      10 allocs/op
+BenchmarkSortingAlgorithms/QuickSort-ReverseSorted-1000000-12    	       1	437742938173 ns/op	 8005720 B/op	      10 allocs/op
+BenchmarkSortingAlgorithms/QuickSort-Duplicate-100-12            	  847222	      1445 ns/op	     896 B/op	       1 allocs/op
+BenchmarkSortingAlgorithms/QuickSort-Duplicate-500-12            	   70047	     17119 ns/op	    4096 B/op	       1 allocs/op
+BenchmarkSortingAlgorithms/QuickSort-Duplicate-1000-12           	   21025	     56808 ns/op	    8192 B/op	       1 allocs/op
+BenchmarkSortingAlgorithms/QuickSort-Duplicate-2500-12           	    3700	    312010 ns/op	   20480 B/op	       1 allocs/op
+BenchmarkSortingAlgorithms/QuickSort-Duplicate-5000-12           	     964	   1226862 ns/op	   40962 B/op	       1 allocs/op
+BenchmarkSortingAlgorithms/QuickSort-Duplicate-10000-12          	     252	   4730555 ns/op	   81928 B/op	       1 allocs/op
+BenchmarkSortingAlgorithms/QuickSort-Duplicate-25000-12          	      39	  28838988 ns/op	  204854 B/op	       1 allocs/op
+BenchmarkSortingAlgorithms/QuickSort-Duplicate-50000-12          	       9	 114669219 ns/op	  401645 B/op	       2 allocs/op
+BenchmarkSortingAlgorithms/QuickSort-Duplicate-100000-12         	       3	 454666147 ns/op	  803442 B/op	       3 allocs/op
+BenchmarkSortingAlgorithms/QuickSort-Duplicate-250000-12         	       1	2835569002 ns/op	 2009176 B/op	      10 allocs/op
+BenchmarkSortingAlgorithms/QuickSort-Duplicate-500000-12         	       1	11307104297 ns/op	 4008024 B/op	      10 allocs/op
+BenchmarkSortingAlgorithms/QuickSort-Duplicate-1000000-12        	       1	45361207229 ns/op	 8007520 B/op	      12 allocs/op
+BenchmarkSortingAlgorithms/MergeSort-Sorted-100-12               	   18043	     66218 ns/op	   41493 B/op	     688 allocs/op
+BenchmarkSortingAlgorithms/MergeSort-Sorted-500-12               	    7417	    146535 ns/op	  217679 B/op	    3493 allocs/op
+BenchmarkSortingAlgorithms/MergeSort-Sorted-1000-12              	    4586	    269476 ns/op	  454056 B/op	    7000 allocs/op
+BenchmarkSortingAlgorithms/MergeSort-Sorted-2500-12              	    1435	    873572 ns/op	 1369845 B/op	   17579 allocs/op
+BenchmarkSortingAlgorithms/MergeSort-Sorted-5000-12              	     561	   2099223 ns/op	 2885350 B/op	   35555 allocs/op
+BenchmarkSortingAlgorithms/MergeSort-Sorted-10000-12             	     326	   3449163 ns/op	 6042006 B/op	   71673 allocs/op
+BenchmarkSortingAlgorithms/MergeSort-Sorted-25000-12             	     159	   7381903 ns/op	15305888 B/op	  179217 allocs/op
+BenchmarkSortingAlgorithms/MergeSort-Sorted-50000-12             	      79	  15036568 ns/op	31737090 B/op	  356484 allocs/op
+BenchmarkSortingAlgorithms/MergeSort-Sorted-100000-12            	      37	  30032634 ns/op	66118068 B/op	  710603 allocs/op
+BenchmarkSortingAlgorithms/MergeSort-Sorted-250000-12            	      14	  76872263 ns/op	169406549 B/op	 1774943 allocs/op
+BenchmarkSortingAlgorithms/MergeSort-Sorted-500000-12            	       7	 155570196 ns/op	353532950 B/op	 3544183 allocs/op
+BenchmarkSortingAlgorithms/MergeSort-Sorted-1000000-12           	       4	 318899910 ns/op	733604628 B/op	 7073553 allocs/op
+BenchmarkSortingAlgorithms/MergeSort-ReverseSorted-100-12        	   16768	     69689 ns/op	   42069 B/op	     715 allocs/op
+BenchmarkSortingAlgorithms/MergeSort-ReverseSorted-500-12        	    9424	    151084 ns/op	  217250 B/op	    3497 allocs/op
+BenchmarkSortingAlgorithms/MergeSort-ReverseSorted-1000-12       	    6147	    258965 ns/op	  453282 B/op	    7010 allocs/op
+BenchmarkSortingAlgorithms/MergeSort-ReverseSorted-2500-12       	    1825	    645908 ns/op	 1400963 B/op	   18459 allocs/op
+BenchmarkSortingAlgorithms/MergeSort-ReverseSorted-5000-12       	     892	   1310393 ns/op	 2914949 B/op	   36974 allocs/op
+BenchmarkSortingAlgorithms/MergeSort-ReverseSorted-10000-12      	     456	   2712929 ns/op	 6062403 B/op	   74114 allocs/op
+BenchmarkSortingAlgorithms/MergeSort-ReverseSorted-25000-12      	     172	   6897184 ns/op	15212247 B/op	  184075 allocs/op
+BenchmarkSortingAlgorithms/MergeSort-ReverseSorted-50000-12      	     100	  14090482 ns/op	31697781 B/op	  367728 allocs/op
+BenchmarkSortingAlgorithms/MergeSort-ReverseSorted-100000-12     	      40	  29574427 ns/op	66436637 B/op	  737664 allocs/op
+BenchmarkSortingAlgorithms/MergeSort-ReverseSorted-250000-12     	      13	  77829989 ns/op	168985611 B/op	 1783309 allocs/op
+BenchmarkSortingAlgorithms/MergeSort-ReverseSorted-500000-12     	       7	 160446421 ns/op	352855854 B/op	 3566936 allocs/op
+BenchmarkSortingAlgorithms/MergeSort-ReverseSorted-1000000-12    	       4	 325952341 ns/op	735916858 B/op	 7126287 allocs/op
+BenchmarkSortingAlgorithms/MergeSort-Duplicate-100-12            	   16461	     71329 ns/op	   41901 B/op	     708 allocs/op
+BenchmarkSortingAlgorithms/MergeSort-Duplicate-500-12            	    9408	    151909 ns/op	  217166 B/op	    3494 allocs/op
+BenchmarkSortingAlgorithms/MergeSort-Duplicate-1000-12           	    5962	    260444 ns/op	  459850 B/op	    7002 allocs/op
+BenchmarkSortingAlgorithms/MergeSort-Duplicate-2500-12           	    2020	    671806 ns/op	 1401873 B/op	   18239 allocs/op
+BenchmarkSortingAlgorithms/MergeSort-Duplicate-5000-12           	     921	   1338921 ns/op	 2938082 B/op	   36576 allocs/op
+BenchmarkSortingAlgorithms/MergeSort-Duplicate-10000-12          	     436	   2731111 ns/op	 6239430 B/op	   73205 allocs/op
+BenchmarkSortingAlgorithms/MergeSort-Duplicate-25000-12          	     163	   7255395 ns/op	16158781 B/op	  181344 allocs/op
+BenchmarkSortingAlgorithms/MergeSort-Duplicate-50000-12          	     100	  14628676 ns/op	34194758 B/op	  361916 allocs/op
+BenchmarkSortingAlgorithms/MergeSort-Duplicate-100000-12         	      40	  29880989 ns/op	72804315 B/op	  727147 allocs/op
+BenchmarkSortingAlgorithms/MergeSort-Duplicate-250000-12         	      13	  82185740 ns/op	190108910 B/op	 1779916 allocs/op
+BenchmarkSortingAlgorithms/MergeSort-Duplicate-500000-12         	       6	 167364800 ns/op	400668024 B/op	 3553349 allocs/op
+BenchmarkSortingAlgorithms/MergeSort-Duplicate-1000000-12        	       3	 334561530 ns/op	842609653 B/op	 7102602 allocs/op
+BenchmarkSortingAlgorithms/MergeSort-Random-100-12               	   16441	     71426 ns/op	   41829 B/op	     705 allocs/op
+BenchmarkSortingAlgorithms/MergeSort-Random-500-12               	    9405	    152007 ns/op	  217167 B/op	    3494 allocs/op
+BenchmarkSortingAlgorithms/MergeSort-Random-1000-12              	    5946	    262668 ns/op	  459918 B/op	    7004 allocs/op
+BenchmarkSortingAlgorithms/MergeSort-Random-2500-12              	    1938	    681150 ns/op	 1403077 B/op	   18271 allocs/op
+BenchmarkSortingAlgorithms/MergeSort-Random-5000-12              	     810	   1367348 ns/op	 2936438 B/op	   36572 allocs/op
+BenchmarkSortingAlgorithms/MergeSort-Random-10000-12             	     430	   2774700 ns/op	 6242103 B/op	   73270 allocs/op
+BenchmarkSortingAlgorithms/MergeSort-Random-25000-12             	     162	   7384036 ns/op	16161107 B/op	  181613 allocs/op
+BenchmarkSortingAlgorithms/MergeSort-Random-50000-12             	     100	  14797150 ns/op	34203733 B/op	  362655 allocs/op
+BenchmarkSortingAlgorithms/MergeSort-Random-100000-12            	      40	  29932714 ns/op	72953555 B/op	  729807 allocs/op
+BenchmarkSortingAlgorithms/MergeSort-Random-250000-12            	      13	  83707485 ns/op	190151218 B/op	 1780903 allocs/op
+BenchmarkSortingAlgorithms/MergeSort-Random-500000-12            	       6	 168521158 ns/op	401134989 B/op	 3559274 allocs/op
+BenchmarkSortingAlgorithms/MergeSort-Random-1000000-12           	       3	 337380660 ns/op	842597333 B/op	 7104519 allocs/op
+BenchmarkSortingAlgorithms/InsertionSort-Random-100-12           	  719642	      1693 ns/op	     896 B/op	       1 allocs/op
+BenchmarkSortingAlgorithms/InsertionSort-Random-500-12           	   37360	     31269 ns/op	    4096 B/op	       1 allocs/op
+BenchmarkSortingAlgorithms/InsertionSort-Random-1000-12          	    9297	    120898 ns/op	    8192 B/op	       1 allocs/op
+BenchmarkSortingAlgorithms/InsertionSort-Random-2500-12          	    1605	    744636 ns/op	   20481 B/op	       1 allocs/op
+BenchmarkSortingAlgorithms/InsertionSort-Random-5000-12          	     412	   2834971 ns/op	   40965 B/op	       1 allocs/op
+BenchmarkSortingAlgorithms/InsertionSort-Random-10000-12         	     100	  11661837 ns/op	   81941 B/op	       1 allocs/op
+BenchmarkSortingAlgorithms/InsertionSort-Random-25000-12         	      15	  74503212 ns/op	  204942 B/op	       1 allocs/op
+BenchmarkSortingAlgorithms/InsertionSort-Random-50000-12         	       4	 302820503 ns/op	  401942 B/op	       3 allocs/op
+BenchmarkSortingAlgorithms/InsertionSort-Random-100000-12        	       1	1214947319 ns/op	  804952 B/op	      10 allocs/op
+BenchmarkSortingAlgorithms/InsertionSort-Random-250000-12        	       1	7576359540 ns/op	 2008920 B/op	       7 allocs/op
+BenchmarkSortingAlgorithms/InsertionSort-Random-500000-12        	       1	30470266456 ns/op	 4007768 B/op	       7 allocs/op
+BenchmarkSortingAlgorithms/InsertionSort-Random-1000000-12       	       1	121406156481 ns/op	 8005720 B/op	      10 allocs/op
+BenchmarkSortingAlgorithms/InsertionSort-Sorted-100-12           	 5356065	       187.9 ns/op	     896 B/op	       1 allocs/op
+BenchmarkSortingAlgorithms/InsertionSort-Sorted-500-12           	 1259742	       919.4 ns/op	    4096 B/op	       1 allocs/op
+BenchmarkSortingAlgorithms/InsertionSort-Sorted-1000-12          	  675297	      1849 ns/op	    8192 B/op	       1 allocs/op
+BenchmarkSortingAlgorithms/InsertionSort-Sorted-2500-12          	  232016	      4373 ns/op	   20480 B/op	       1 allocs/op
+BenchmarkSortingAlgorithms/InsertionSort-Sorted-5000-12          	  125768	      9089 ns/op	   40960 B/op	       1 allocs/op
+BenchmarkSortingAlgorithms/InsertionSort-Sorted-10000-12         	   60229	     17790 ns/op	   81920 B/op	       1 allocs/op
+BenchmarkSortingAlgorithms/InsertionSort-Sorted-25000-12         	   23709	     47551 ns/op	  204800 B/op	       1 allocs/op
+BenchmarkSortingAlgorithms/InsertionSort-Sorted-50000-12         	   12516	     93362 ns/op	  401408 B/op	       1 allocs/op
+BenchmarkSortingAlgorithms/InsertionSort-Sorted-100000-12        	    6530	    176649 ns/op	  802816 B/op	       1 allocs/op
+BenchmarkSortingAlgorithms/InsertionSort-Sorted-250000-12        	    2851	    379381 ns/op	 2007040 B/op	       1 allocs/op
+BenchmarkSortingAlgorithms/InsertionSort-Sorted-500000-12        	    1398	    775442 ns/op	 4005889 B/op	       1 allocs/op
+BenchmarkSortingAlgorithms/InsertionSort-Sorted-1000000-12       	     768	   1474870 ns/op	 8003586 B/op	       1 allocs/op
+BenchmarkSortingAlgorithms/InsertionSort-ReverseSorted-100-12    	  356802	      3239 ns/op	     896 B/op	       1 allocs/op
+BenchmarkSortingAlgorithms/InsertionSort-ReverseSorted-500-12    	   19113	     61901 ns/op	    4096 B/op	       1 allocs/op
+BenchmarkSortingAlgorithms/InsertionSort-ReverseSorted-1000-12   	    5029	    238275 ns/op	    8192 B/op	       1 allocs/op
+BenchmarkSortingAlgorithms/InsertionSort-ReverseSorted-2500-12   	     813	   1443826 ns/op	   20482 B/op	       1 allocs/op
+BenchmarkSortingAlgorithms/InsertionSort-ReverseSorted-5000-12   	     204	   5826983 ns/op	   40970 B/op	       1 allocs/op
+BenchmarkSortingAlgorithms/InsertionSort-ReverseSorted-10000-12  	      48	  24027753 ns/op	   81966 B/op	       1 allocs/op
+BenchmarkSortingAlgorithms/InsertionSort-ReverseSorted-25000-12  	       7	 151412826 ns/op	  205116 B/op	       2 allocs/op
+BenchmarkSortingAlgorithms/InsertionSort-ReverseSorted-50000-12  	       2	 608280272 ns/op	  402516 B/op	       6 allocs/op
+BenchmarkSortingAlgorithms/InsertionSort-ReverseSorted-100000-12 	       1	2431397866 ns/op	  805032 B/op	      11 allocs/op
+BenchmarkSortingAlgorithms/InsertionSort-ReverseSorted-250000-12 	       1	15191287658 ns/op	 2009256 B/op	      11 allocs/op
+BenchmarkSortingAlgorithms/InsertionSort-ReverseSorted-500000-12 	       1	60833928953 ns/op	 4008104 B/op	      11 allocs/op
+BenchmarkSortingAlgorithms/InsertionSort-ReverseSorted-1000000-12         	       1	243108136116 ns/op	 8005800 B/op	      11 allocs/op
+BenchmarkSortingAlgorithms/InsertionSort-Duplicate-100-12                 	  796226	      1606 ns/op	     896 B/op	       1 allocs/op
+BenchmarkSortingAlgorithms/InsertionSort-Duplicate-500-12                 	   40311	     29937 ns/op	    4096 B/op	       1 allocs/op
+BenchmarkSortingAlgorithms/InsertionSort-Duplicate-1000-12                	   10000	    107569 ns/op	    8192 B/op	       1 allocs/op
+BenchmarkSortingAlgorithms/InsertionSort-Duplicate-2500-12                	    1783	    645892 ns/op	   20481 B/op	       1 allocs/op
+BenchmarkSortingAlgorithms/InsertionSort-Duplicate-5000-12                	     465	   2612006 ns/op	   40964 B/op	       1 allocs/op
+BenchmarkSortingAlgorithms/InsertionSort-Duplicate-10000-12               	     100	  10541972 ns/op	   81941 B/op	       1 allocs/op
+BenchmarkSortingAlgorithms/InsertionSort-Duplicate-25000-12               	      16	  68467972 ns/op	  204933 B/op	       1 allocs/op
+BenchmarkSortingAlgorithms/InsertionSort-Duplicate-50000-12               	       4	 270470773 ns/op	  401942 B/op	       3 allocs/op
+BenchmarkSortingAlgorithms/InsertionSort-Duplicate-100000-12              	       1	1097053399 ns/op	  804696 B/op	       7 allocs/op
+BenchmarkSortingAlgorithms/InsertionSort-Duplicate-250000-12              	       1	6833360504 ns/op	 2009176 B/op	      10 allocs/op
+BenchmarkSortingAlgorithms/InsertionSort-Duplicate-500000-12              	       1	27335057899 ns/op	 4008024 B/op	      10 allocs/op
+BenchmarkSortingAlgorithms/InsertionSort-Duplicate-1000000-12             	       1	109327960766 ns/op	 8005720 B/op	      10 allocs/op
+BenchmarkSortingAlgorithms/SelectionSort-ReverseSorted-100-12             	  319162	      3715 ns/op	     896 B/op	       1 allocs/op
+BenchmarkSortingAlgorithms/SelectionSort-ReverseSorted-500-12             	   15511	     78541 ns/op	    4096 B/op	       1 allocs/op
+BenchmarkSortingAlgorithms/SelectionSort-ReverseSorted-1000-12            	    3565	    327028 ns/op	    8192 B/op	       1 allocs/op
+BenchmarkSortingAlgorithms/SelectionSort-ReverseSorted-2500-12            	     598	   1841785 ns/op	   20483 B/op	       1 allocs/op
+BenchmarkSortingAlgorithms/SelectionSort-ReverseSorted-5000-12            	     157	   7549038 ns/op	   40973 B/op	       1 allocs/op
+BenchmarkSortingAlgorithms/SelectionSort-ReverseSorted-10000-12           	      40	  29916128 ns/op	   81967 B/op	       1 allocs/op
+BenchmarkSortingAlgorithms/SelectionSort-ReverseSorted-25000-12           	       6	 184179793 ns/op	  205169 B/op	       2 allocs/op
+BenchmarkSortingAlgorithms/SelectionSort-ReverseSorted-50000-12           	       2	 740534996 ns/op	  402516 B/op	       6 allocs/op
+BenchmarkSortingAlgorithms/SelectionSort-ReverseSorted-100000-12          	       1	2895092649 ns/op	  805032 B/op	      11 allocs/op
+BenchmarkSortingAlgorithms/SelectionSort-ReverseSorted-250000-12          	       1	18693952516 ns/op	 2009256 B/op	      11 allocs/op
+BenchmarkSortingAlgorithms/SelectionSort-ReverseSorted-500000-12          	       1	73432074944 ns/op	 4008104 B/op	      11 allocs/op
+BenchmarkSortingAlgorithms/SelectionSort-ReverseSorted-1000000-12         	       1	289208417745 ns/op	 8005800 B/op	      11 allocs/op
+BenchmarkSortingAlgorithms/SelectionSort-Duplicate-100-12                 	  290139	      4043 ns/op	     896 B/op	       1 allocs/op
+BenchmarkSortingAlgorithms/SelectionSort-Duplicate-500-12                 	   12888	     92153 ns/op	    4096 B/op	       1 allocs/op
+BenchmarkSortingAlgorithms/SelectionSort-Duplicate-1000-12                	    3325	    356388 ns/op	    8192 B/op	       1 allocs/op
+BenchmarkSortingAlgorithms/SelectionSort-Duplicate-2500-12                	     548	   2157702 ns/op	   20483 B/op	       1 allocs/op
+BenchmarkSortingAlgorithms/SelectionSort-Duplicate-5000-12                	     139	   8622257 ns/op	   40975 B/op	       1 allocs/op
+BenchmarkSortingAlgorithms/SelectionSort-Duplicate-10000-12               	      33	  34132774 ns/op	   81984 B/op	       1 allocs/op
+BenchmarkSortingAlgorithms/SelectionSort-Duplicate-25000-12               	       5	 212299535 ns/op	  205227 B/op	       2 allocs/op
+BenchmarkSortingAlgorithms/SelectionSort-Duplicate-50000-12               	       2	 847805387 ns/op	  402476 B/op	       5 allocs/op
+BenchmarkSortingAlgorithms/SelectionSort-Duplicate-100000-12              	       1	3399071682 ns/op	  804952 B/op	      10 allocs/op
+BenchmarkSortingAlgorithms/SelectionSort-Duplicate-250000-12              	       1	21264931389 ns/op	 2009176 B/op	      10 allocs/op
+BenchmarkSortingAlgorithms/SelectionSort-Duplicate-500000-12              	       1	85046791172 ns/op	 4007768 B/op	       7 allocs/op
+BenchmarkSortingAlgorithms/SelectionSort-Duplicate-1000000-12             	       1	340231227864 ns/op	 8005720 B/op	      10 allocs/op
+BenchmarkSortingAlgorithms/SelectionSort-Random-100-12                    	  290619	      3946 ns/op	     896 B/op	       1 allocs/op
+BenchmarkSortingAlgorithms/SelectionSort-Random-500-12                    	   12250	     96653 ns/op	    4096 B/op	       1 allocs/op
+BenchmarkSortingAlgorithms/SelectionSort-Random-1000-12                   	    3201	    370685 ns/op	    8192 B/op	       1 allocs/op
+BenchmarkSortingAlgorithms/SelectionSort-Random-2500-12                   	     538	   2211489 ns/op	   20483 B/op	       1 allocs/op
+BenchmarkSortingAlgorithms/SelectionSort-Random-5000-12                   	     138	   8648958 ns/op	   40975 B/op	       1 allocs/op
+BenchmarkSortingAlgorithms/SelectionSort-Random-10000-12                  	      33	  34393646 ns/op	   81984 B/op	       1 allocs/op
+BenchmarkSortingAlgorithms/SelectionSort-Random-25000-12                  	       5	 213525235 ns/op	  205227 B/op	       2 allocs/op
+BenchmarkSortingAlgorithms/SelectionSort-Random-50000-12                  	       2	 852082619 ns/op	  402476 B/op	       5 allocs/op
+BenchmarkSortingAlgorithms/SelectionSort-Random-100000-12                 	       1	3400886302 ns/op	  823416 B/op	      12 allocs/op
+BenchmarkSortingAlgorithms/SelectionSort-Random-250000-12                 	       1	21280398089 ns/op	 2009176 B/op	      10 allocs/op
+BenchmarkSortingAlgorithms/SelectionSort-Random-500000-12                 	       1	85100130370 ns/op	 4008024 B/op	      10 allocs/op
+BenchmarkSortingAlgorithms/SelectionSort-Random-1000000-12                	       1	340492393047 ns/op	 8005720 B/op	      10 allocs/op
+BenchmarkSortingAlgorithms/SelectionSort-Sorted-100-12                    	  298483	      3855 ns/op	     896 B/op	       1 allocs/op
+BenchmarkSortingAlgorithms/SelectionSort-Sorted-500-12                    	   13602	     87525 ns/op	    4096 B/op	       1 allocs/op
+BenchmarkSortingAlgorithms/SelectionSort-Sorted-1000-12                   	    3405	    347300 ns/op	    8192 B/op	       1 allocs/op
+BenchmarkSortingAlgorithms/SelectionSort-Sorted-2500-12                   	     561	   2133581 ns/op	   20483 B/op	       1 allocs/op
+BenchmarkSortingAlgorithms/SelectionSort-Sorted-5000-12                   	     140	   8518155 ns/op	   40975 B/op	       1 allocs/op
+BenchmarkSortingAlgorithms/SelectionSort-Sorted-10000-12                  	      34	  33918127 ns/op	   81982 B/op	       1 allocs/op
+BenchmarkSortingAlgorithms/SelectionSort-Sorted-25000-12                  	       5	 213167827 ns/op	  205227 B/op	       2 allocs/op
+BenchmarkSortingAlgorithms/SelectionSort-Sorted-50000-12                  	       2	 852796556 ns/op	  402476 B/op	       5 allocs/op
+BenchmarkSortingAlgorithms/SelectionSort-Sorted-100000-12                 	       1	3424770282 ns/op	  804952 B/op	      10 allocs/op
+BenchmarkSortingAlgorithms/SelectionSort-Sorted-250000-12                 	       1	21277784641 ns/op	 2009176 B/op	      10 allocs/op
+BenchmarkSortingAlgorithms/SelectionSort-Sorted-500000-12                 	       1	85186377756 ns/op	 4008024 B/op	      10 allocs/op
+BenchmarkSortingAlgorithms/SelectionSort-Sorted-1000000-12                	       1	342926623069 ns/op	 8005720 B/op	      10 allocs/op
+
+Sorting Algorithm Statistics:
+========================================
+== QuickSort ==
+  -- Random --
+    100: Comparisons: 902, Swaps: 437
+    500: Comparisons: 4441, Swaps: 2265
+    1000: Comparisons: 11392, Swaps: 5802
+    2500: Comparisons: 30702, Swaps: 14419
+    5000: Comparisons: 73200, Swaps: 35091
+    10000: Comparisons: 180260, Swaps: 75758
+    25000: Comparisons: 644060, Swaps: 176773
+    50000: Comparisons: 1912996, Swaps: 368481
+    100000: Comparisons: 6286240, Swaps: 759192
+    250000: Comparisons: 34537757, Swaps: 1929412
+    500000: Comparisons: 132023321, Swaps: 3887650
+    1000000: Comparisons: 513376091, Swaps: 7738213
+  -- Sorted --
+    100: Comparisons: 4950, Swaps: 5049
+    500: Comparisons: 124750, Swaps: 125249
+    1000: Comparisons: 499500, Swaps: 500499
+    2500: Comparisons: 3123750, Swaps: 3126249
+    5000: Comparisons: 12497500, Swaps: 12502499
+    10000: Comparisons: 49995000, Swaps: 50004999
+    25000: Comparisons: 312487500, Swaps: 312512499
+    50000: Comparisons: 1249975000, Swaps: 1250024999
+    100000: Comparisons: 4999950000, Swaps: 5000049999
+    250000: Comparisons: 31249875000, Swaps: 31250124999
+    500000: Comparisons: 124999750000, Swaps: 125000249999
+    1000000: Comparisons: 499999500000, Swaps: 500000499999
+  -- ReverseSorted --
+    100: Comparisons: 4950, Swaps: 2549
+    500: Comparisons: 124750, Swaps: 62749
+    1000: Comparisons: 499500, Swaps: 250499
+    2500: Comparisons: 3123750, Swaps: 1563749
+    5000: Comparisons: 12497500, Swaps: 6252499
+    10000: Comparisons: 49995000, Swaps: 25004999
+    25000: Comparisons: 312487500, Swaps: 156262499
+    50000: Comparisons: 1249975000, Swaps: 625024999
+    100000: Comparisons: 4999950000, Swaps: 2500049999
+    250000: Comparisons: 31249875000, Swaps: 15625124999
+    500000: Comparisons: 124999750000, Swaps: 62500249999
+    1000000: Comparisons: 499999500000, Swaps: 250000499999
+  -- Duplicate --
+    100: Comparisons: 988, Swaps: 251
+    500: Comparisons: 14542, Swaps: 1678
+    1000: Comparisons: 53285, Swaps: 2342
+    2500: Comparisons: 320677, Swaps: 7673
+    5000: Comparisons: 1270058, Swaps: 13946
+    10000: Comparisons: 5049482, Swaps: 24070
+    25000: Comparisons: 31323531, Swaps: 65108
+    50000: Comparisons: 125275846, Swaps: 115041
+    100000: Comparisons: 500307149, Swaps: 269913
+    250000: Comparisons: 3126011613, Swaps: 799591
+    500000: Comparisons: 12501587940, Swaps: 1400094
+    1000000: Comparisons: 50004151521, Swaps: 2499083
+
+== MergeSort ==
+  -- Random --
+    100: Comparisons: 550, Swaps: 672
+    500: Comparisons: 3857, Swaps: 4488
+    1000: Comparisons: 8718, Swaps: 9976
+    2500: Comparisons: 25136, Swaps: 28404
+    5000: Comparisons: 55234, Swaps: 61808
+    10000: Comparisons: 120457, Swaps: 133616
+    25000: Comparisons: 334023, Swaps: 367232
+    50000: Comparisons: 718197, Swaps: 784464
+    100000: Comparisons: 1535873, Swaps: 1668928
+    250000: Comparisons: 4167944, Swaps: 4487856
+    500000: Comparisons: 8835758, Swaps: 9475712
+    1000000: Comparisons: 18669159, Swaps: 19951424
+  -- Sorted --
+    100: Comparisons: 316, Swaps: 672
+    500: Comparisons: 2216, Swaps: 4488
+    1000: Comparisons: 4932, Swaps: 9976
+    2500: Comparisons: 13652, Swaps: 28404
+    5000: Comparisons: 29804, Swaps: 61808
+    10000: Comparisons: 64608, Swaps: 133616
+    25000: Comparisons: 178756, Swaps: 367232
+    50000: Comparisons: 382512, Swaps: 784464
+    100000: Comparisons: 815024, Swaps: 1668928
+    250000: Comparisons: 2221248, Swaps: 4487856
+    500000: Comparisons: 4692496, Swaps: 9475712
+    1000000: Comparisons: 9884992, Swaps: 19951424
+  -- ReverseSorted --
+    100: Comparisons: 356, Swaps: 672
+    500: Comparisons: 2272, Swaps: 4488
+    1000: Comparisons: 5044, Swaps: 9976
+    2500: Comparisons: 14752, Swaps: 28404
+    5000: Comparisons: 32004, Swaps: 61808
+    10000: Comparisons: 69008, Swaps: 133616
+    25000: Comparisons: 188476, Swaps: 367232
+    50000: Comparisons: 401952, Swaps: 784464
+    100000: Comparisons: 853904, Swaps: 1668928
+    250000: Comparisons: 2266608, Swaps: 4487856
+    500000: Comparisons: 4783216, Swaps: 9475712
+    1000000: Comparisons: 10066432, Swaps: 19951424
+  -- Duplicate --
+    100: Comparisons: 530, Swaps: 672
+    500: Comparisons: 3759, Swaps: 4488
+    1000: Comparisons: 8483, Swaps: 9976
+    2500: Comparisons: 24409, Swaps: 28404
+    5000: Comparisons: 53629, Swaps: 61808
+    10000: Comparisons: 116901, Swaps: 133616
+    25000: Comparisons: 322428, Swaps: 367232
+    50000: Comparisons: 692440, Swaps: 784464
+    100000: Comparisons: 1479190, Swaps: 1668928
+    250000: Comparisons: 4014716, Swaps: 4487856
+    500000: Comparisons: 8501512, Swaps: 9475712
+    1000000: Comparisons: 17957043, Swaps: 19951424
+
+== InsertionSort ==
+  -- Random --
+    100: Comparisons: 2638, Swaps: 2544
+    500: Comparisons: 61179, Swaps: 60687
+    1000: Comparisons: 246894, Swaps: 245898
+    2500: Comparisons: 1598102, Swaps: 1595609
+    5000: Comparisons: 6161733, Swaps: 6156741
+    10000: Comparisons: 24879546, Swaps: 24869552
+    25000: Comparisons: 155439712, Swaps: 155414714
+    50000: Comparisons: 625456903, Swaps: 625406911
+    100000: Comparisons: 2499023534, Swaps: 2498923539
+    250000: Comparisons: 15624572409, Swaps: 15624322418
+    500000: Comparisons: 62474850844, Swaps: 62474350856
+    1000000: Comparisons: 249667487921, Swaps: 249666487927
+  -- Sorted --
+    100: Comparisons: 99, Swaps: 0
+    500: Comparisons: 499, Swaps: 0
+    1000: Comparisons: 999, Swaps: 0
+    2500: Comparisons: 2499, Swaps: 0
+    5000: Comparisons: 4999, Swaps: 0
+    10000: Comparisons: 9999, Swaps: 0
+    25000: Comparisons: 24999, Swaps: 0
+    50000: Comparisons: 49999, Swaps: 0
+    100000: Comparisons: 99999, Swaps: 0
+    250000: Comparisons: 249999, Swaps: 0
+    500000: Comparisons: 499999, Swaps: 0
+    1000000: Comparisons: 999999, Swaps: 0
+  -- ReverseSorted --
+    100: Comparisons: 4950, Swaps: 4950
+    500: Comparisons: 124750, Swaps: 124750
+    1000: Comparisons: 499500, Swaps: 499500
+    2500: Comparisons: 3123750, Swaps: 3123750
+    5000: Comparisons: 12497500, Swaps: 12497500
+    10000: Comparisons: 49995000, Swaps: 49995000
+    25000: Comparisons: 312487500, Swaps: 312487500
+    50000: Comparisons: 1249975000, Swaps: 1249975000
+    100000: Comparisons: 4999950000, Swaps: 4999950000
+    250000: Comparisons: 31249875000, Swaps: 31249875000
+    500000: Comparisons: 124999750000, Swaps: 124999750000
+    1000000: Comparisons: 499999500000, Swaps: 499999500000
+  -- Duplicate --
+    100: Comparisons: 2347, Swaps: 2250
+    500: Comparisons: 58309, Swaps: 57814
+    1000: Comparisons: 218762, Swaps: 217763
+    2500: Comparisons: 1381477, Swaps: 1378980
+    5000: Comparisons: 5683178, Swaps: 5678179
+    10000: Comparisons: 22481608, Swaps: 22471612
+    25000: Comparisons: 141616253, Swaps: 141591256
+    50000: Comparisons: 559894642, Swaps: 559844646
+    100000: Comparisons: 2255605421, Swaps: 2255505424
+    250000: Comparisons: 14069417620, Swaps: 14069167624
+    500000: Comparisons: 56292311866, Swaps: 56291811868
+    1000000: Comparisons: 224953961543, Swaps: 224952961546
+
+== SelectionSort ==
+  -- Random --
+    100: Comparisons: 4950, Swaps: 93
+    500: Comparisons: 124750, Swaps: 491
+    1000: Comparisons: 499500, Swaps: 991
+    2500: Comparisons: 3123750, Swaps: 2487
+    5000: Comparisons: 12497500, Swaps: 4984
+    10000: Comparisons: 49995000, Swaps: 9983
+    25000: Comparisons: 312487500, Swaps: 24972
+    50000: Comparisons: 1249975000, Swaps: 49944
+    100000: Comparisons: 4999950000, Swaps: 99898
+    250000: Comparisons: 31249875000, Swaps: 249785
+    500000: Comparisons: 124999750000, Swaps: 499499
+    1000000: Comparisons: 499999500000, Swaps: 999040
+  -- Sorted --
+    100: Comparisons: 4950, Swaps: 0
+    500: Comparisons: 124750, Swaps: 0
+    1000: Comparisons: 499500, Swaps: 0
+    2500: Comparisons: 3123750, Swaps: 0
+    5000: Comparisons: 12497500, Swaps: 0
+    10000: Comparisons: 49995000, Swaps: 0
+    25000: Comparisons: 312487500, Swaps: 0
+    50000: Comparisons: 1249975000, Swaps: 0
+    100000: Comparisons: 4999950000, Swaps: 0
+    250000: Comparisons: 31249875000, Swaps: 0
+    500000: Comparisons: 124999750000, Swaps: 0
+    1000000: Comparisons: 499999500000, Swaps: 0
+  -- ReverseSorted --
+    100: Comparisons: 4950, Swaps: 50
+    500: Comparisons: 124750, Swaps: 250
+    1000: Comparisons: 499500, Swaps: 500
+    2500: Comparisons: 3123750, Swaps: 1250
+    5000: Comparisons: 12497500, Swaps: 2500
+    10000: Comparisons: 49995000, Swaps: 5000
+    25000: Comparisons: 312487500, Swaps: 12500
+    50000: Comparisons: 1249975000, Swaps: 25000
+    100000: Comparisons: 4999950000, Swaps: 50000
+    250000: Comparisons: 31249875000, Swaps: 125000
+    500000: Comparisons: 124999750000, Swaps: 250000
+    1000000: Comparisons: 499999500000, Swaps: 500000
+  -- Duplicate --
+    100: Comparisons: 4950, Swaps: 81
+    500: Comparisons: 124750, Swaps: 445
+    1000: Comparisons: 499500, Swaps: 887
+    2500: Comparisons: 3123750, Swaps: 2223
+    5000: Comparisons: 12497500, Swaps: 4518
+    10000: Comparisons: 49995000, Swaps: 8976
+    25000: Comparisons: 312487500, Swaps: 22521
+    50000: Comparisons: 1249975000, Swaps: 44962
+    100000: Comparisons: 4999950000, Swaps: 90066
+    250000: Comparisons: 31249875000, Swaps: 225109
+    500000: Comparisons: 124999750000, Swaps: 450017
+    1000000: Comparisons: 499999500000, Swaps: 900183
+
+PASS
+ok  	github.com/guiwoch/go-sorting-benchmark/benchmark	3857.811s
